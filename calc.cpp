@@ -42,7 +42,7 @@ main()
 
         // If user enter +
         case '+':
-            cout << ele1 + ele2; 
+            cout << ele1 + ele2;
             break;
 
 

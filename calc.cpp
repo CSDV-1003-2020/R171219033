@@ -23,6 +23,7 @@ main()
         case '*':
             cout << num1 * num2;
             break;
+<<<<<<< HEAD
 =======
 
 	   // If user enter -  
@@ -30,6 +31,14 @@ main()
             cout << num1 - num2; 
             break; 
 >>>>>>> subtraction
+=======
+                
+	    // If user enter / 
+        case '/': 
+            cout << num1 / num2; 
+            break; 
+
+>>>>>>> division
           
         // If user enter +  
         case '+': 

@@ -22,6 +22,12 @@ main()
         case '*':
             cout << num1 * num2;
             break;
+                
+	    // If user enter / 
+        case '/': 
+            cout << num1 / num2; 
+            break; 
+
           
         
 

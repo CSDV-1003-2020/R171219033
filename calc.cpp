@@ -17,11 +17,19 @@ main()
   
     // Switch statement begins 
     switch (op) { 
+<<<<<<< HEAD
 	    
 	    // If user enter *
         case '*':
             cout << num1 * num2;
             break;
+=======
+
+	   // If user enter -  
+        case '-': 
+            cout << num1 - num2; 
+            break; 
+>>>>>>> subtraction
           
         // If user enter +  
         case '+': 

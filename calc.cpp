@@ -1,49 +1,49 @@
-// C++ program to create calculator using 
-// switch statement 
-#include <iostream> 
-using namespace std; 
-  
-// Main program 
-main() 
-{ 
-    char op; 
-    float num1, num2; 
-  
-    // It allows user to enter operator i.e. +, -, *, / 
-    cin >> op; 
-  
-    // It allow user to enter the operands 
-    cin >> num1 >> num2; 
-  
-    // Switch statement begins 
-    switch (op) { 
+// C++ program to create calculator using
+// switch statement
+#include <iostream>
+using namespace std;
+
+// Main program
+main()
+{
+    char op;
+    float ele1, ele2;
+
+    // It allows user to enter operator i.e. +, -, *, /
+    cin >> op;
+
+    // It allow user to enter the operands
+    cin >> ele1 >> ele2;
+
+    // Switch statement begins
+    switch (op) {
 <<<<<<< HEAD
-	    
+
 	    // If user enter *
         case '*':
-            cout << num1 * num2;
+            cout << ele1 * ele2;
             break;
 <<<<<<< HEAD
 =======
 
-	   // If user enter -  
-        case '-': 
-            cout << num1 - num2; 
-            break; 
+	   // If user enter -
+        case '-':
+            cout << ele1 - ele2;
+            break;
 >>>>>>> subtraction
 =======
-                
-	    // If user enter / 
-        case '/': 
-            cout << num1 / num2; 
-            break; 
+
+	    // If user enter /
+        case '/':
+            cout << ele1 / ele2;
+            break;
 
 >>>>>>> division
-          
-        // If user enter +  
-        case '+': 
-            cout << num1 + num2; 
-            break; 
+
+        // If user enter +
+        case '+':
+            cout << ele1 + ele2; 
+            break;
 
 
 
@@ -67,23 +67,3 @@ main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

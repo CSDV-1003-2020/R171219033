@@ -16,6 +16,22 @@ int main(){
        cout<<"\t\t\tValue at "<<j<<" Index: "<<array[j]<<endl;        
       }   
       cout<<endl;
+
+      // Bubble Sort Starts Here
+     int temp;
+     for(int i2=0; i2<=4; i2++)
+   {
+     for(int j=0; j<4; j++)
+     {
+        //Swapping element in if statement    
+           if(array[j]>array[j+1])
+       {
+        temp=array[j];
+        array[j]=array[j+1];
+        array[j+1]=temp;        
+       }
+     }         
+   }
    
    // Displaying Sorted array
       cout<<"  Sorted Array is: "<<endl;

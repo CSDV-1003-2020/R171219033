@@ -9,40 +9,50 @@ main()
     char op;
     float ele1, ele2;
 
+// Main program 
+main()
+{
+    char op;
+    float int1, int2;
+
     // It allows user to enter operator i.e. +, -, *, /
     cin >> op;
 
     // It allow user to enter the operands
     cin >> ele1 >> ele2;
+    cin >> int1 >> int2;
 
     // Switch statement begins
     switch (op) {
-<<<<<<< HEAD
 
 	    // If user enter *
         case '*':
             cout << ele1 * ele2;
+
+            cout << int1 * int2;
             break;
-<<<<<<< HEAD
-=======
 
 	   // If user enter -
         case '-':
             cout << ele1 - ele2;
+
+            cout << int1 - int2;
             break;
->>>>>>> subtraction
-=======
 
 	    // If user enter /
         case '/':
             cout << ele1 / ele2;
+            cout << int1 / int2;
             break;
 
->>>>>>> division
 
         // If user enter +
         case '+':
+ 
             cout << ele1 + ele2;
+
+            cout << int1 + int2;
+ 
             break;
 
 
